@@ -3,10 +3,10 @@
 namespace Tests\Unit;
 
 use App\User;
+use Tests\TestCase;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Illuminate\Support\Facades\Hash;
-use Tests\TestCase;
 
 class UserTest extends TestCase
 {
